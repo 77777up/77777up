@@ -8,27 +8,41 @@
     <pattern id="dots" width="22" height="22" patternUnits="userSpaceOnUse"><circle cx="1.5" cy="1.5" r="1" fill="#2563eb" opacity=".11"/></pattern>
     <filter id="shadow" x="-30%" y="-30%" width="160%" height="170%"><feDropShadow dx="0" dy="9" stdDeviation="11" flood-color="#1d4ed8" flood-opacity=".13"/></filter>
     <filter id="soft"><feGaussianBlur stdDeviation="18"/></filter>
+    <style>
+      .flow{stroke-dasharray:8 7;animation:flow 1.45s linear infinite}
+      .wave{stroke-dasharray:14 10;animation:flow 7s linear infinite}
+      .pulse{transform-box:fill-box;transform-origin:center;animation:pulse 1.8s ease-in-out infinite}
+      .pulse.delay{animation-delay:.55s}.pulse.delay2{animation-delay:1.05s}
+      .scan{animation:scan 4.2s ease-in-out infinite}
+      .cert{transform-box:fill-box;transform-origin:center;animation:cert 2.4s ease-in-out infinite}
+      @keyframes flow{to{stroke-dashoffset:-30}}
+      @keyframes pulse{0%,100%{opacity:.65;transform:scale(.9)}50%{opacity:1;transform:scale(1.14)}}
+      @keyframes scan{0%,100%{transform:translateX(0);opacity:0}12%{opacity:.55}50%{transform:translateX(390px);opacity:.18}88%{opacity:.55}}
+      @keyframes cert{0%,100%{transform:scale(.92);opacity:.8}50%{transform:scale(1.08);opacity:1}}
+      @media(prefers-reduced-motion:reduce){.flow,.wave,.pulse,.scan,.cert{animation:none}}
+    </style>
   </defs>
   <rect x="1" y="1" width="1198" height="418" rx="28" fill="url(#bg)" stroke="#cbd5e1"/><rect x="1" y="1" width="1198" height="418" rx="28" fill="url(#dots)"/>
   <ellipse cx="1000" cy="190" rx="280" ry="235" fill="url(#glow)"/><circle cx="1110" cy="34" r="75" fill="#a5f3fc" opacity=".17" filter="url(#soft)"/>
-  <path d="M0 345C185 292 326 395 515 338S856 267 1200 320" fill="none" stroke="#38bdf8" stroke-width="1.5" opacity=".24"/><path d="M0 369C205 316 346 419 535 362S876 291 1200 344" fill="none" stroke="#818cf8" stroke-width="1.5" opacity=".16"/>
+  <path class="wave" d="M0 345C185 292 326 395 515 338S856 267 1200 320" fill="none" stroke="#38bdf8" stroke-width="1.5" opacity=".24"/><path class="wave" d="M0 369C205 316 346 419 535 362S876 291 1200 344" fill="none" stroke="#818cf8" stroke-width="1.5" opacity=".16"/>
   <g fill="none" stroke="#0284c7" opacity=".62"><path d="M36 92V40h52M1112 40h52v52M36 328v52h52M1112 380h52v-52" stroke-width="2"/><path d="M86 66h148M966 354h148" stroke-dasharray="4 8"/></g>
   <g transform="translate(72 76)">
     <g font-family="ui-monospace,SFMono-Regular,Menlo,monospace" font-size="14" letter-spacing="2"><text fill="#0284c7">PROFILE.NODE</text><text x="148" fill="#0d9488">● AVAILABLE</text></g>
     <text y="99" fill="#0f172a" font-family="Inter,Segoe UI,sans-serif" font-weight="800" font-size="78" letter-spacing=".5">VIDIA HU</text>
     <rect y="123" width="520" height="5" rx="2.5" fill="url(#line)"/>
     <text y="171" fill="#334155" font-family="ui-monospace,SFMono-Regular,Menlo,monospace" font-size="23">Cloud · Software · Data</text>
-    <g transform="translate(0 200)" filter="url(#shadow)"><rect width="500" height="68" rx="16" fill="url(#glass)" stroke="#dbeafe"/><rect x="15" y="14" width="40" height="40" rx="11" fill="#fff7ed"/><text x="35" y="40" text-anchor="middle" fill="#f59e0b" font-family="Inter,Segoe UI,sans-serif" font-size="14" font-weight="800">AWS</text><text x="70" y="29" fill="#0f172a" font-family="Inter,Segoe UI,sans-serif" font-size="15" font-weight="700">AWS Certified</text><text x="70" y="50" fill="#475569" font-family="Inter,Segoe UI,sans-serif" font-size="14">Solutions Architect – Associate</text><circle cx="465" cy="34" r="13" fill="#dcfce7"/><path d="m459 34 4 4 8-9" fill="none" stroke="#16a34a" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round"/></g>
+    <g transform="translate(0 200)" filter="url(#shadow)"><rect width="500" height="68" rx="16" fill="url(#glass)" stroke="#dbeafe"/><rect x="15" y="14" width="40" height="40" rx="11" fill="#fff7ed"/><text x="35" y="40" text-anchor="middle" fill="#f59e0b" font-family="Inter,Segoe UI,sans-serif" font-size="14" font-weight="800">AWS</text><text x="70" y="29" fill="#0f172a" font-family="Inter,Segoe UI,sans-serif" font-size="15" font-weight="700">AWS Certified</text><text x="70" y="50" fill="#475569" font-family="Inter,Segoe UI,sans-serif" font-size="14">Solutions Architect – Associate</text><circle class="cert" cx="465" cy="34" r="13" fill="#dcfce7"/><path d="m459 34 4 4 8-9" fill="none" stroke="#16a34a" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round"/></g>
     <text y="305" fill="#64748b" font-family="ui-monospace,SFMono-Regular,Menlo,monospace" font-size="15">UNIVERSITY OF AUCKLAND  /  AUCKLAND, NZ</text>
   </g>
   <g transform="translate(685 88)" filter="url(#shadow)">
     <rect width="444" height="252" rx="24" fill="url(#glass)" stroke="#bfdbfe"/>
+    <rect class="scan" x="18" y="44" width="34" height="190" rx="17" fill="#7dd3fc" opacity="0"/>
     <g font-family="ui-monospace,monospace"><text x="24" y="31" fill="#64748b" font-size="12" letter-spacing="1.5">CLOUD ARCHITECTURE / LIVE</text><circle cx="407" cy="26" r="4" fill="#22c55e"/><circle cx="421" cy="26" r="4" fill="#38bdf8"/></g>
-    <g stroke="url(#line)" stroke-width="2" fill="none"><path d="M79 128h55M190 128h55M301 128h55"/><path d="M162 92v-28h112v28M162 164v27h112v-27" stroke-dasharray="4 5"/></g>
+    <g class="flow" stroke="url(#line)" stroke-width="2" fill="none"><path d="M79 128h55M190 128h55M301 128h55"/><path d="M162 92v-28h112v28M162 164v27h112v-27"/></g>
     <g font-family="ui-monospace,monospace" text-anchor="middle">
-      <g transform="translate(30 94)"><rect width="98" height="68" rx="15" fill="#fff" stroke="#bae6fd"/><circle cx="49" cy="25" r="12" fill="#e0f2fe"/><path d="M43 25h12M49 19v12" stroke="#0284c7" stroke-width="2"/><text x="49" y="53" fill="#334155" font-size="11">CLIENT</text></g>
-      <g transform="translate(134 94)"><rect width="98" height="68" rx="15" fill="#fff" stroke="#c4b5fd"/><circle cx="49" cy="25" r="12" fill="#ede9fe"/><path d="M42 22h14M42 28h14" stroke="#6366f1" stroke-width="2"/><text x="49" y="53" fill="#334155" font-size="11">API</text></g>
-      <g transform="translate(245 94)"><rect width="98" height="68" rx="15" fill="#fff" stroke="#99f6e4"/><circle cx="49" cy="25" r="12" fill="#ccfbf1"/><path d="M43 21h12v10H43z" fill="none" stroke="#0d9488" stroke-width="2"/><text x="49" y="53" fill="#334155" font-size="11">COMPUTE</text></g>
+      <g transform="translate(30 94)"><rect width="98" height="68" rx="15" fill="#fff" stroke="#bae6fd"/><circle class="pulse" cx="49" cy="25" r="12" fill="#e0f2fe"/><path d="M43 25h12M49 19v12" stroke="#0284c7" stroke-width="2"/><text x="49" y="53" fill="#334155" font-size="11">CLIENT</text></g>
+      <g transform="translate(134 94)"><rect width="98" height="68" rx="15" fill="#fff" stroke="#c4b5fd"/><circle class="pulse delay" cx="49" cy="25" r="12" fill="#ede9fe"/><path d="M42 22h14M42 28h14" stroke="#6366f1" stroke-width="2"/><text x="49" y="53" fill="#334155" font-size="11">API</text></g>
+      <g transform="translate(245 94)"><rect width="98" height="68" rx="15" fill="#fff" stroke="#99f6e4"/><circle class="pulse delay2" cx="49" cy="25" r="12" fill="#ccfbf1"/><path d="M43 21h12v10H43z" fill="none" stroke="#0d9488" stroke-width="2"/><text x="49" y="53" fill="#334155" font-size="11">COMPUTE</text></g>
       <g transform="translate(356 94)"><rect width="58" height="68" rx="15" fill="#fff" stroke="#fed7aa"/><ellipse cx="29" cy="22" rx="10" ry="4" fill="#ffedd5" stroke="#f59e0b"/><path d="M19 22v12c0 5 20 5 20 0V22" fill="none" stroke="#f59e0b"/><text x="29" y="53" fill="#334155" font-size="11">DATA</text></g>
       <g transform="translate(128 49)"><rect width="68" height="29" rx="10" fill="#eff6ff" stroke="#bfdbfe"/><text x="34" y="19" fill="#2563eb" font-size="10">SECURE</text></g>
       <g transform="translate(240 49)"><rect width="68" height="29" rx="10" fill="#f0fdf4" stroke="#bbf7d0"/><text x="34" y="19" fill="#15803d" font-size="10">SCALE</text></g>

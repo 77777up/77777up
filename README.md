@@ -3,9 +3,9 @@
 </p>
 
 <p align="center">
-  <a href="https://github.com/77777up?tab=repositories"><img alt="Projects" src="https://img.shields.io/badge/Projects-Explore-0ea5e9?style=for-the-badge&logo=github&logoColor=white"></a>
-  <a href="https://github.com/77777up/chromawalk"><img alt="Featured project" src="https://img.shields.io/badge/Featured-ChromaWalk-8b5cf6?style=for-the-badge&logo=typescript&logoColor=white"></a>
-  <img alt="Location" src="https://img.shields.io/badge/Auckland-New_Zealand-14b8a6?style=for-the-badge&logo=googlemaps&logoColor=white">
+  <img alt="Learn deeply" src="https://img.shields.io/badge/Learn-Deeply-0ea5e9?style=for-the-badge">
+  <img alt="Build thoughtfully" src="https://img.shields.io/badge/Build-Thoughtfully-8b5cf6?style=for-the-badge">
+  <img alt="Share openly" src="https://img.shields.io/badge/Share-Openly-14b8a6?style=for-the-badge">
 </p>
 
 <p align="center">
@@ -18,19 +18,21 @@
   <img src="./assets/tech-cards-light.svg" alt="Technology card grid" width="100%" />
 </p>
 
-## `Featured Projects`
+## `How I Work`
 
 <table>
   <tr>
-    <td width="50%" valign="top">
-      <h3><a href="https://github.com/77777up/chromawalk">ChromaWalk</a></h3>
-      <p>A colour-based social mobile application developed as a University of Auckland team project.</p>
-      <p><code>TypeScript</code> <code>Mobile</code> <code>Team Project</code></p>
+    <td width="33%" valign="top">
+      <h3>Think in systems</h3>
+      <p>I enjoy turning complex ideas into clear structures, reliable flows, and maintainable solutions.</p>
     </td>
-    <td width="50%" valign="top">
-      <h3><a href="https://github.com/77777up/ml-basics">ML Basics</a></h3>
-      <p>Hands-on Machine Learning notebooks and exercises based on Microsoft Learn modules.</p>
-      <p><code>Python</code> <code>Jupyter</code> <code>Machine Learning</code></p>
+    <td width="33%" valign="top">
+      <h3>Learn by building</h3>
+      <p>I learn best through experimentation, reflection, and shipping something useful.</p>
+    </td>
+    <td width="33%" valign="top">
+      <h3>Clarity over cleverness</h3>
+      <p>I value thoughtful communication, simple designs, and steady improvement.</p>
     </td>
   </tr>
 </table>
