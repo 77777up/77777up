@@ -1,5 +1,5 @@
 <p align="center">
-  <img src="./assets/hero-light.svg" alt="Vidia Hu — Cloud and Software Engineer" width="100%" />
+  <img src="./assets/hero-light.svg?v=20261124-2" alt="Vidia Hu — Cloud and Software Engineer" width="100%" />
 </p>
 
 <p align="center">
@@ -9,7 +9,7 @@
 </p>
 
 <p align="center">
-  <img src="./assets/terminal-light.svg" alt="Terminal-style profile summary" width="100%" />
+  <img src="./assets/terminal-light.svg?v=20261124-2" alt="Terminal-style profile summary" width="100%" />
 </p>
 
 ## `Toolbox`
@@ -56,5 +56,5 @@ career/      System Design & Interviews   status: sharpening
 </p>
 
 <p align="center">
-  <img src="./assets/footer-light.svg" alt="Build, learn, improve, repeat" width="100%" />
+  <img src="./assets/footer-light.svg?v=20261124-2" alt="Build, learn, improve, repeat" width="100%" />
 </p>
