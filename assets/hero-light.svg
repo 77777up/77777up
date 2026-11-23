@@ -1,15 +1,39 @@
-<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="390" viewBox="0 0 1200 390" role="img" aria-labelledby="title desc">
-  <title id="title">Vidia Hu — Cloud and Software Engineer</title><desc id="desc">Light futuristic cloud architecture profile banner</desc>
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="420" viewBox="0 0 1200 420" role="img" aria-labelledby="title desc">
+  <title id="title">Vidia Hu — Cloud and Software Engineer</title><desc id="desc">Futuristic light cloud architecture banner with AWS certification</desc>
   <defs>
-    <linearGradient id="bg" x1="0" y1="0" x2="1" y2="1"><stop stop-color="#f8fcff"/><stop offset=".52" stop-color="#f3f7ff"/><stop offset="1" stop-color="#ecfeff"/></linearGradient>
-    <linearGradient id="accent" x1="0" y1="0" x2="1" y2="0"><stop stop-color="#0284c7"/><stop offset=".48" stop-color="#6366f1"/><stop offset="1" stop-color="#0d9488"/></linearGradient>
-    <radialGradient id="orb"><stop stop-color="#38bdf8" stop-opacity=".23"/><stop offset="1" stop-color="#38bdf8" stop-opacity="0"/></radialGradient>
-    <pattern id="micro" width="24" height="24" patternUnits="userSpaceOnUse"><circle cx="1.5" cy="1.5" r="1" fill="#0284c7" opacity=".12"/></pattern>
-    <filter id="shadow" x="-30%" y="-30%" width="160%" height="160%"><feDropShadow dx="0" dy="7" stdDeviation="10" flood-color="#2563eb" flood-opacity=".15"/></filter>
+    <linearGradient id="bg" x1="0" y1="0" x2="1" y2="1"><stop stop-color="#fbfdff"/><stop offset=".48" stop-color="#f4f8ff"/><stop offset="1" stop-color="#ecfeff"/></linearGradient>
+    <linearGradient id="line" x1="0" y1="0" x2="1" y2="0"><stop stop-color="#0284c7"/><stop offset=".5" stop-color="#6366f1"/><stop offset="1" stop-color="#0d9488"/></linearGradient>
+    <linearGradient id="glass" x1="0" y1="0" x2="1" y2="1"><stop stop-color="#ffffff" stop-opacity=".96"/><stop offset="1" stop-color="#eff6ff" stop-opacity=".8"/></linearGradient>
+    <radialGradient id="glow"><stop stop-color="#60a5fa" stop-opacity=".25"/><stop offset="1" stop-color="#60a5fa" stop-opacity="0"/></radialGradient>
+    <pattern id="dots" width="22" height="22" patternUnits="userSpaceOnUse"><circle cx="1.5" cy="1.5" r="1" fill="#2563eb" opacity=".11"/></pattern>
+    <filter id="shadow" x="-30%" y="-30%" width="160%" height="170%"><feDropShadow dx="0" dy="9" stdDeviation="11" flood-color="#1d4ed8" flood-opacity=".13"/></filter>
+    <filter id="soft"><feGaussianBlur stdDeviation="18"/></filter>
   </defs>
-  <rect x="1" y="1" width="1198" height="388" rx="25" fill="url(#bg)" stroke="#cbd5e1"/><rect x="1" y="1" width="1198" height="388" rx="25" fill="url(#micro)"/><circle cx="1030" cy="190" r="260" fill="url(#orb)"/>
-  <path d="M0 320C220 260 310 380 505 315S810 235 1200 290" fill="none" stroke="#38bdf8" stroke-width="1.5" opacity=".22"/><path d="M0 342C240 282 330 402 525 337S830 257 1200 312" fill="none" stroke="#6366f1" stroke-width="1.5" opacity=".15"/>
-  <g fill="none" stroke="#0284c7" opacity=".6"><path d="M38 88V42h46M1116 42h46v46M38 302v46h46M1116 348h46v-46" stroke-width="2"/><path d="M85 66h160M955 324h160" stroke-dasharray="5 8"/></g>
-  <g transform="translate(74 102)"><g font-family="ui-monospace,SFMono-Regular,Menlo,monospace" font-size="15" letter-spacing="2"><text fill="#0284c7">SYSTEM://PROFILE</text><text x="190" fill="#0d9488">● ONLINE</text></g><text y="88" fill="#0f172a" font-family="Inter,Segoe UI,sans-serif" font-weight="800" font-size="76" letter-spacing="1">VIDIA HU</text><rect y="112" width="565" height="5" rx="2.5" fill="url(#accent)"/><text y="160" fill="#334155" font-family="ui-monospace,SFMono-Regular,Menlo,monospace" font-size="23">Cloud · Software · Data</text><text y="198" fill="#64748b" font-family="ui-monospace,SFMono-Regular,Menlo,monospace" font-size="16">UNIVERSITY OF AUCKLAND  /  AUCKLAND, NZ</text></g>
-  <g transform="translate(830 70)" filter="url(#shadow)"><circle cx="145" cy="125" r="104" fill="#fff" stroke="#bfdbfe" stroke-width="2"/><circle cx="145" cy="125" r="83" fill="none" stroke="#93c5fd" stroke-dasharray="4 8"/><circle cx="145" cy="125" r="60" fill="none" stroke="#c4b5fd"/><path d="M95 132c0-16 13-29 29-29 5-17 20-29 38-29 23 0 41 18 43 40 13 3 22 15 22 28 0 17-13 30-30 30h-76c-15 0-26-12-26-27Z" fill="#eff6ff" stroke="url(#accent)" stroke-width="3"/><path d="M118 132h66M132 150h39" stroke="#0d9488" stroke-width="3" stroke-linecap="round"/><g fill="#6366f1"><circle cx="145" cy="21" r="5"/><circle cx="249" cy="125" r="5"/><circle cx="145" cy="229" r="5"/><circle cx="41" cy="125" r="5"/></g><g stroke="#6366f1" opacity=".55"><path d="M145 26v25M244 125h-25M145 224v-25M46 125h25"/></g><g font-family="ui-monospace,monospace" font-size="12" fill="#64748b"><text x="120" y="8">CLOUD</text><text x="254" y="129">API</text><text x="126" y="252">DATA</text><text x="6" y="129">CODE</text></g></g>
+  <rect x="1" y="1" width="1198" height="418" rx="28" fill="url(#bg)" stroke="#cbd5e1"/><rect x="1" y="1" width="1198" height="418" rx="28" fill="url(#dots)"/>
+  <ellipse cx="1000" cy="190" rx="280" ry="235" fill="url(#glow)"/><circle cx="1110" cy="34" r="75" fill="#a5f3fc" opacity=".17" filter="url(#soft)"/>
+  <path d="M0 345C185 292 326 395 515 338S856 267 1200 320" fill="none" stroke="#38bdf8" stroke-width="1.5" opacity=".24"/><path d="M0 369C205 316 346 419 535 362S876 291 1200 344" fill="none" stroke="#818cf8" stroke-width="1.5" opacity=".16"/>
+  <g fill="none" stroke="#0284c7" opacity=".62"><path d="M36 92V40h52M1112 40h52v52M36 328v52h52M1112 380h52v-52" stroke-width="2"/><path d="M86 66h148M966 354h148" stroke-dasharray="4 8"/></g>
+  <g transform="translate(72 76)">
+    <g font-family="ui-monospace,SFMono-Regular,Menlo,monospace" font-size="14" letter-spacing="2"><text fill="#0284c7">PROFILE.NODE</text><text x="148" fill="#0d9488">● AVAILABLE</text></g>
+    <text y="99" fill="#0f172a" font-family="Inter,Segoe UI,sans-serif" font-weight="800" font-size="78" letter-spacing=".5">VIDIA HU</text>
+    <rect y="123" width="520" height="5" rx="2.5" fill="url(#line)"/>
+    <text y="171" fill="#334155" font-family="ui-monospace,SFMono-Regular,Menlo,monospace" font-size="23">Cloud · Software · Data</text>
+    <g transform="translate(0 200)" filter="url(#shadow)"><rect width="500" height="68" rx="16" fill="url(#glass)" stroke="#dbeafe"/><rect x="15" y="14" width="40" height="40" rx="11" fill="#fff7ed"/><text x="35" y="40" text-anchor="middle" fill="#f59e0b" font-family="Inter,Segoe UI,sans-serif" font-size="14" font-weight="800">AWS</text><text x="70" y="29" fill="#0f172a" font-family="Inter,Segoe UI,sans-serif" font-size="15" font-weight="700">AWS Certified</text><text x="70" y="50" fill="#475569" font-family="Inter,Segoe UI,sans-serif" font-size="14">Solutions Architect – Associate</text><circle cx="465" cy="34" r="13" fill="#dcfce7"/><path d="m459 34 4 4 8-9" fill="none" stroke="#16a34a" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round"/></g>
+    <text y="305" fill="#64748b" font-family="ui-monospace,SFMono-Regular,Menlo,monospace" font-size="15">UNIVERSITY OF AUCKLAND  /  AUCKLAND, NZ</text>
+  </g>
+  <g transform="translate(685 88)" filter="url(#shadow)">
+    <rect width="444" height="252" rx="24" fill="url(#glass)" stroke="#bfdbfe"/>
+    <g font-family="ui-monospace,monospace"><text x="24" y="31" fill="#64748b" font-size="12" letter-spacing="1.5">CLOUD ARCHITECTURE / LIVE</text><circle cx="407" cy="26" r="4" fill="#22c55e"/><circle cx="421" cy="26" r="4" fill="#38bdf8"/></g>
+    <g stroke="url(#line)" stroke-width="2" fill="none"><path d="M79 128h55M190 128h55M301 128h55"/><path d="M162 92v-28h112v28M162 164v27h112v-27" stroke-dasharray="4 5"/></g>
+    <g font-family="ui-monospace,monospace" text-anchor="middle">
+      <g transform="translate(30 94)"><rect width="98" height="68" rx="15" fill="#fff" stroke="#bae6fd"/><circle cx="49" cy="25" r="12" fill="#e0f2fe"/><path d="M43 25h12M49 19v12" stroke="#0284c7" stroke-width="2"/><text x="49" y="53" fill="#334155" font-size="11">CLIENT</text></g>
+      <g transform="translate(134 94)"><rect width="98" height="68" rx="15" fill="#fff" stroke="#c4b5fd"/><circle cx="49" cy="25" r="12" fill="#ede9fe"/><path d="M42 22h14M42 28h14" stroke="#6366f1" stroke-width="2"/><text x="49" y="53" fill="#334155" font-size="11">API</text></g>
+      <g transform="translate(245 94)"><rect width="98" height="68" rx="15" fill="#fff" stroke="#99f6e4"/><circle cx="49" cy="25" r="12" fill="#ccfbf1"/><path d="M43 21h12v10H43z" fill="none" stroke="#0d9488" stroke-width="2"/><text x="49" y="53" fill="#334155" font-size="11">COMPUTE</text></g>
+      <g transform="translate(356 94)"><rect width="58" height="68" rx="15" fill="#fff" stroke="#fed7aa"/><ellipse cx="29" cy="22" rx="10" ry="4" fill="#ffedd5" stroke="#f59e0b"/><path d="M19 22v12c0 5 20 5 20 0V22" fill="none" stroke="#f59e0b"/><text x="29" y="53" fill="#334155" font-size="11">DATA</text></g>
+      <g transform="translate(128 49)"><rect width="68" height="29" rx="10" fill="#eff6ff" stroke="#bfdbfe"/><text x="34" y="19" fill="#2563eb" font-size="10">SECURE</text></g>
+      <g transform="translate(240 49)"><rect width="68" height="29" rx="10" fill="#f0fdf4" stroke="#bbf7d0"/><text x="34" y="19" fill="#15803d" font-size="10">SCALE</text></g>
+      <g transform="translate(128 181)"><rect width="68" height="29" rx="10" fill="#fefce8" stroke="#fde68a"/><text x="34" y="19" fill="#a16207" font-size="10">OBSERVE</text></g>
+      <g transform="translate(240 181)"><rect width="68" height="29" rx="10" fill="#fdf4ff" stroke="#e9d5ff"/><text x="34" y="19" fill="#7e22ce" font-size="10">DELIVER</text></g>
+    </g>
+  </g>
 </svg>

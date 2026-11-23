@@ -35,10 +35,10 @@
   </tr>
 </table>
 
-## `Currently Learning`
+## `Credentials & Current Focus`
 
 ```text
-cloud/       AWS Solutions Architecture  status: building
+credential/  AWS Certified Solutions Architect – Associate  status: earned
 engineering/ Full-stack TypeScript       status: shipping
 data/        Data & Machine Learning      status: exploring
 career/      System Design & Interviews   status: sharpening
