@@ -1,8 +1,13 @@
 <svg xmlns="http://www.w3.org/2000/svg" width="1200" height="105" viewBox="0 0 1200 105" role="img" aria-label="Build, learn, improve, repeat">
   <defs><linearGradient id="g" x1="0" x2="1"><stop stop-color="#0284c7"/><stop offset=".5" stop-color="#4f46e5"/><stop offset="1" stop-color="#0d9488"/></linearGradient></defs>
+  <style>
+    .cursor{animation:blink 1.05s steps(1,end) infinite}
+    @keyframes blink{0%,46%{opacity:1}47%,100%{opacity:0}}
+    @media(prefers-reduced-motion:reduce){.cursor{animation:none}}
+  </style>
   <rect width="1200" height="105" rx="18" fill="#f8fafc" stroke="#cbd5e1"/>
   <text x="50" y="64" fill="#0f766e" font-family="ui-monospace,monospace" font-size="22">vidia@github:~$</text>
   <text x="256" y="64" fill="#0f172a" font-family="ui-monospace,monospace" font-size="22">build --learn --improve --repeat</text>
-  <rect x="686" y="43" width="14" height="25" fill="url(#g)"/>
+  <rect class="cursor" x="686" y="43" width="14" height="25" fill="url(#g)"/>
   <text x="1140" y="64" text-anchor="end" fill="#64748b" font-family="ui-monospace,monospace" font-size="16">exit 0</text>
 </svg>
