@@ -1,0 +1,16 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="430" viewBox="0 0 1200 430" role="img" aria-label="Terminal profile card">
+  <rect x="1" y="1" width="1198" height="428" rx="20" fill="#f8fafc" stroke="#cbd5e1" stroke-width="2"/>
+  <path d="M1 54h1198" stroke="#cbd5e1" stroke-width="2"/>
+  <circle cx="30" cy="28" r="7" fill="#f43f5e"/><circle cx="54" cy="28" r="7" fill="#f59e0b"/><circle cx="78" cy="28" r="7" fill="#10b981"/>
+  <text x="600" y="35" text-anchor="middle" fill="#64748b" font-family="ui-monospace,monospace" font-size="16">vidia@cloud-shell: ~</text>
+  <g font-family="ui-monospace, SFMono-Regular, Menlo, monospace" font-size="21">
+    <text x="48" y="102" fill="#0f766e">vidia@github</text><text x="188" y="102" fill="#64748b">:</text><text x="201" y="102" fill="#4f46e5">~</text><text x="217" y="102" fill="#0f172a">$ whoami --verbose</text>
+    <text x="70" y="146" fill="#0369a1">role</text><text x="260" y="146" fill="#1e293b">Cloud &amp; Software Engineering student</text>
+    <text x="70" y="184" fill="#0369a1">education</text><text x="260" y="184" fill="#1e293b">University of Auckland · MIT</text>
+    <text x="70" y="222" fill="#0369a1">location</text><text x="260" y="222" fill="#1e293b">Auckland, New Zealand</text>
+    <text x="70" y="260" fill="#0369a1">focus</text><text x="260" y="260" fill="#1e293b">AWS · TypeScript · Data · Machine Learning</text>
+    <text x="70" y="298" fill="#0369a1">mission</text><text x="260" y="298" fill="#1e293b">Build reliable systems. Keep learning in public.</text>
+    <text x="48" y="358" fill="#0f766e">vidia@github</text><text x="188" y="358" fill="#64748b">:</text><text x="201" y="358" fill="#4f46e5">~</text><text x="217" y="358" fill="#0f172a">$ status</text>
+    <text x="70" y="397" fill="#059669">● CURRENTLY BUILDING IN PUBLIC</text><rect x="430" y="377" width="12" height="24" fill="#0f172a" opacity=".7"/>
+  </g>
+</svg>
